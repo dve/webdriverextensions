@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.github.webdriverextensions</groupId>
+		<artifactId>webdriverextensions-parent</artifactId>
+		<version>3.10.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>webdriverextensions</artifactId>
+	<name>WebDriver Extensions</name>
+	<description>WebDriver Extensions is designed to simplify Java based Selenium/WebDriver tests. It's built on top of
+        Selenium/WebDriver to make your tests more readable, reusabable and maintainable by combining the Page Object
+        Pattern and Bot Pattern.
+    </description>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.github.webdriverextensions</groupId>
+			<artifactId>webdriverextensions-mono</artifactId>
+			<version>3.10.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+</project>
